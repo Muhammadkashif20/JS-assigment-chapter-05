@@ -170,14 +170,38 @@ document.write("<br>");
 var age=2024%2008;
 document.write('Your age is: '+age)
 
-document.write("<br>");
-document.write("<br>");
-document.write('<h1>The Geomatrizer ???</h1>')
-document.write("<br>");
-document.write('<H1>The Lifetime Supply Calculator</H1>')
-var snacks='lays'
-var current_Age=16
-var maximum_Age=50
-var max_Amount=30
-document.write('you will need so '+current_Age-maximum_Age%max_Amount)
+var marksObtained=804;
+var totalMarks=980;
+var Percentage=marksObtained*100/totalMarks;
+document.write(Percentage)
+document.write('<br>')
+var usDollar=104.80
+var saudiRiyal=28
+var total=usDollar*10+saudiRiyal*25
+document.write(total)
+document.write('<br>')
+var number=5+5*10;
+document.write(number/2)
+document.write('<br>')
 
+var currentYear=2024
+document.write('Current Year: '+currentYear)
+document.write('<br>')
+var birthYear=2004
+document.write('Birth Year: '+birthYear)
+document.write('<br>')
+var age=currentYear%birthYear
+document.write('Your Age is: '+age)
+document.write('<br>') 
+document.write('<br>') 
+var favouriteSnack='Lays'
+document.write('Fourite Snack: Lays'+'<br>')
+var currentAge=15
+document.write('current Age:15'+'<br>')
+var maximumAge=65
+document.write('maximum Age: 65'+'<br>')
+var amountofSnack=3
+document.write('amount of Snack: 3'+'<br>'+'<br>');
+document.write('you will need '+maximumAge%currentAge*356*amountofSnack+' to last you until the ripe old age of 65')
+
+  
